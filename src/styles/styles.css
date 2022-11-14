@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+div#root {
+  max-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 12% repeat(2, min-content);
+  background-color: red;
+}
+html {
+  font-size: 62.5%;
+}
+.grid {
+  display: grid;
+  grid-template-columns:
+    [right-start] minmax(3%, 1fr)
+    [right-end center-start] repeat(8, minmax(min-content,14rem))
+  [center-end left-start] minmax(3%, 1fr) [left-end];
+  grid-template-rows: auto;
+}
