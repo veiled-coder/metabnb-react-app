@@ -5,9 +5,16 @@
   padding: 0;
   box-sizing: inherit;
 }
+body {
+  font-family: "Red Rose";
+}
+:root {
+  --purple: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  --purple2: #a34878;
+}
 div#root {
   max-width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-rows: 12% repeat(2, min-content);
   background-color: red;
@@ -19,7 +26,10 @@ html {
   display: grid;
   grid-template-columns:
     [right-start] minmax(3%, 1fr)
-    [right-end center-start] repeat(8, minmax(min-content,14rem))
-  [center-end left-start] minmax(3%, 1fr) [left-end];
+    [right-end center-start] repeat(8, minmax(min-content, 14rem))
+    [center-end left-start] minmax(3%, 1fr) [left-end];
   grid-template-rows: auto;
+}
+.purp {
+  color: var(--purple);
 }

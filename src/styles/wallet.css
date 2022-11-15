@@ -1,0 +1,11 @@
+.wallet {
+  background: var(--purple);
+  display: grid;
+  grid-template-columns:
+    [right-start] minmax(10%, 1fr)
+    [right-end center-start] repeat(8, minmax(min-content, 14rem))
+    [center-end left-start] minmax(10%, 1fr) [left-end];
+}
+.wallet-content {
+  grid-column: center-start/center-end;
+}
