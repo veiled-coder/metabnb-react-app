@@ -1,11 +1,28 @@
-.wallet {
+.wallets {
   background: var(--purple);
-  display: grid;
-  grid-template-columns:
-    [right-start] minmax(10%, 1fr)
-    [right-end center-start] repeat(8, minmax(min-content, 14rem))
-    [center-end left-start] minmax(10%, 1fr) [left-end];
+  display: flex;
+  justify-content: space-around;
 }
-.wallet-content {
-  grid-column: center-start/center-end;
+
+.wallet {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .wallets {
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  .token {
+    width: 80%;
+    height: 95%;
+  }
+}
+@media(max-width:375px){
+    .token{
+        width: 100%;
+        height: 100%;
+    }
 }
