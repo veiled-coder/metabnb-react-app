@@ -7,7 +7,7 @@ function Houses() {
   return (
     <section className="houses">
       <h2>Inspiration for your next adventure</h2>
-      <Housescontainer />
+      <Housescontainer  />
     </section>
   );
 }

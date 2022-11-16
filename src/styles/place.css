@@ -1,13 +1,13 @@
-.place-content {
-  grid-column: center-start/center-end;
-}
+
 .places-list {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 1rem;
   grid-gap: 1rem;
+  grid-column: center-start/center-end;
 }
 .btn.btn-location {
   background: white;
