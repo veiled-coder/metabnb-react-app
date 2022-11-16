@@ -1,0 +1,34 @@
+.place-content {
+  grid-column: center-start/center-end;
+}
+.places-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-gap: 1rem;
+}
+.btn.btn-location {
+  background: white;
+  border: 1px solid #b4b4b4;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 10%;
+}
+.setting {
+  height: 1.5rem;
+  width: 2rem;
+}
+@media (max-width: 900px) {
+  .places-list {
+    font-size: 1.5rem;
+  }
+  .btn.btn-location {
+    font-size: 0.8rem;
+    width: 15%;
+  }
+}

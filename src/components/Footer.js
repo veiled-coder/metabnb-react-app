@@ -10,21 +10,22 @@ function Footer() {
   return (
     <section className="footer grid">
       <div className="footer-container">
-        <div className="footer-logo_container1 footer-item_container1">
-          <img
-            src={metawhite}
-            alt="white meta bnb-logo"
-            className="metawhite-logo"
-          />
-          <div className="footer-socials">
-            <div className="footer-socialIcons">
-              <img src={fb} alt="facebook logo" className="footer-icon" />
-              <img src={inst} alt="instagram logo" className="footer-icon" />
-              <img src={tw} alt="twitter logo" className="footer-icon" />
-            </div>
-            <p className="copyright">&copy; 2022 Metabnb</p>
+        <div className="meta-socials">
+          <div className="meta-whitelogo_container">
+            <img
+              src={metawhite}
+              alt="white meta bnb-logo"
+              className="metawhite-logo"
+            />
           </div>
+          <div className="footer-socialIcons">
+            <img src={fb} alt="facebook logo" className="footer-icon" />
+            <img src={inst} alt="instagram logo" className="footer-icon" />
+            <img src={tw} alt="twitter logo" className="footer-icon" />
+          </div>
+          <p className="copyright">&copy; 2022 Metabnb</p>
         </div>
+
         <div className="footer-list_container">
           <h4>Community</h4>
           <p>NFT</p>
