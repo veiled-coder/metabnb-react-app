@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Red Rose";
+  
 }
 :root {
   --purple: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
@@ -37,4 +38,3 @@ html {
 .purp {
   color: var(--purple);
 }
-

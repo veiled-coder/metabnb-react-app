@@ -1,9 +1,8 @@
 import React from "react";
-import "../styles/button.css"
+import "../styles/button.css";
 
-function Button({name,styleclass,children}) {
-  return <button className={`btn ${styleclass}`}>{name}
-    {children}</button>;
+function Button({ name, styleclass,clicked }) {
+  return <button onClick={clicked} className={`btn ${styleclass}`}>{name}</button>;
 }
 
 export default Button;

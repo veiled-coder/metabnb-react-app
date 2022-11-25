@@ -6,9 +6,11 @@ import logo from "../src/images/meta.png";
 import Button from "./components/Button";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-function Nav() {
+
+function Nav({setshowModalTrue}) {
+
   return (
     <section className="nav--container grid">
       <div className="nav-section_content">
@@ -26,8 +28,8 @@ function Nav() {
         </nav>
         <div>
           {" "}
-          <Button name="Connect wallet" styleclass="nav-btn" />
-        </div>
+          <Button name="Connect wallet" styleclass="nav-btn" clicked={setshowModalTrue} />
+                </div>
         <div className="hamburger-menu">
           <FontAwesomeIcon icon={faBars} className="hamburger-menu" />
         </div>
