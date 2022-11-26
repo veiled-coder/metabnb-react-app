@@ -1,0 +1,32 @@
+.connect{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.connect p{
+    font-size: 2rem;
+}
+.hr{
+border: .1px solid #CFD8DC;
+   margin-top: 1rem;
+  
+}
+.modal{
+    width: 40%;
+    height: 40%;
+}
+.wallet-type{
+    background-color: #CFD8DC;
+    padding: 1rem;
+}
+@media(max-width:450px){
+    .connect p{
+        font-size: 1.2rem;
+    }
+    .modal{
+        width: 60%;
+        height: 40%;
+    }
+}
