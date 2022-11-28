@@ -9,7 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from 'react-router-dom';
 
 
-function Nav({setshowModalTrue}) {
+
+function Nav() {
+
 
   return (
     <section className="nav--container grid">
@@ -28,7 +30,7 @@ function Nav({setshowModalTrue}) {
         </nav>
         <div>
           {" "}
-          <Button name="Connect wallet" styleclass="nav-btn" clicked={setshowModalTrue} />
+          <Button name="Connect wallet" styleclass="nav-btn"/>
                 </div>
         <div className="hamburger-menu">
           <FontAwesomeIcon icon={faBars} className="hamburger-menu" />
