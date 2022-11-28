@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/nfts.css";
 import "../styles/styles.css";
 import Button from "./Button";
-import Nftimage from "../images/nft-image.svg";
+import Nftimage from "../images/nft-image.png";
 
 
 

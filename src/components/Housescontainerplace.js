@@ -3,22 +3,22 @@ import Card from './Card';
 import "../styles/houses.css";
 import "../styles/styles.css";
 
-import House16 from "../images/house16.svg";
-import House17 from "../images/house17.svg";
-import House18 from "../images/house18.svg";
-import House19 from "../images/house19.svg";
-import House20 from "../images/house20.svg";
-import House21 from "../images/house21.svg";
-import House22 from "../images/house22.svg";
-import House23 from "../images/house23.svg";
-import House24 from "../images/house24.svg";
-import House25 from "../images/house25.svg";
-import House26 from "../images/house26.svg";
-import House27 from "../images/house27.svg";
-import House28 from "../images/house28.svg";
-import House29 from "../images/house29.svg";
-import House30 from "../images/house30.svg";
-import House31 from "../images/house31.svg";
+import House16 from "../images/house16.png";
+import House17 from "../images/house17.png";
+import House18 from "../images/house18.png";
+import House19 from "../images/house19.png";
+import House20 from "../images/house20.png";
+import House21 from "../images/house21.png";
+import House22 from "../images/house22.png";
+import House23 from "../images/house23.png";
+import House24 from "../images/house24.png";
+import House25 from "../images/house25.png";
+import House26 from "../images/house26.png";
+import House27 from "../images/house27.png";
+import House28 from "../images/house28.png";
+import House29 from "../images/house29.png";
+import House30 from "../images/house30.png";
+import House31 from "../images/house31.png";
 
 
 function Housescontainerplace() {

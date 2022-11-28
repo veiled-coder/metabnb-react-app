@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/header.css";
 import Button from "./Button";
-import House1 from '../images/house1.svg';
-import House2 from "../images/house2.svg";
-import House3 from "../images/house3.svg";
-import House4 from "../images/house4.svg";
+import House1 from '../images/house1.png';
+import House2 from "../images/house2.png";
+import House3 from "../images/house3.png";
+import House4 from "../images/house4.png";
 import "../styles/styles.css";
 
 
