@@ -1,5 +1,5 @@
 .nav--container {
-  /* background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%); */
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   align-items: center;
   
   
@@ -22,15 +22,15 @@
   padding: 1rem 0;
 }
 .mobile-menu_list{
-  align-self: flex-end;
- 
-  
-  width: 100%;
+padding-right: 1rem;
+  /* width: 100%; */
   text-align: right;
+  
   font-size: 1.5rem;
   line-height: 2;
- border-bottom: 1px solid #6F6CE1;
+
   border-radius: 1rem;
+  background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
 }
 
 .logo--container {

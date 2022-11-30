@@ -21,7 +21,10 @@ function Nav({ toggleValue, Toggling }) {
           </div>
           <nav>
             <ul className="nav-links">
-              <li className="nav-link">Home</li>
+              <Link to="/">
+                {" "}
+                <li className="nav-link">Home</li>
+              </Link>
               <Link to="/place">
                 <li className="nav-link">Place to stay</li>
               </Link>
@@ -39,13 +42,13 @@ function Nav({ toggleValue, Toggling }) {
           </div>
         </div>
         {/* TOGGLE MENU LIST */}
-        {toggleValue===false? (
+        {toggleValue === false ? (
           <div className="mobile-menu_list">
             <Link to="/">
-              <p>Home</p>
+              <p onClick={Toggling}>Home</p>
             </Link>
             <Link to="/place">
-              <p >Place to stay</p>
+              <p onClick={Toggling}>Place to stay</p>
             </Link>
             <p>NFTs</p>
             <p>Community</p>
