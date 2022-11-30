@@ -39,13 +39,13 @@ function Nav({ toggleValue, Toggling }) {
           </div>
         </div>
         {/* TOGGLE MENU LIST */}
-        {toggleValue ? (
+        {toggleValue===false? (
           <div className="mobile-menu_list">
             <Link to="/">
               <p>Home</p>
             </Link>
             <Link to="/place">
-              <p onClick={Toggling}>Place to stay</p>
+              <p >Place to stay</p>
             </Link>
             <p>NFTs</p>
             <p>Community</p>
