@@ -24,7 +24,7 @@ function App() {
           modalState={showModal}
           setshowModalFalse={() => setshowModal(false)}
         />
-        <thetruecontext.Provider value={trueboolean}>
+       <thetruecontext.Provider value={trueboolean}>
           <Nav />
         </thetruecontext.Provider>
 

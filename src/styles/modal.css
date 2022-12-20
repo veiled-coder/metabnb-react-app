@@ -1,32 +1,57 @@
-.connect{
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
+.connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
-.connect p{
-    font-size: 2rem;
+.connect p {
+  font-size: 2rem;
 }
-.hr{
-border: .1px solid #CFD8DC;
-   margin-top: 1rem;
-  
+.hr {
+  border: 0.1px solid #cfd8dc;
+  margin-top: 1rem;
 }
-.modal{
-    width: 40%;
-    height: 40%;
+.modal {
+  width: 40%;
+ 
 }
-.wallet-type{
-    background-color: #CFD8DC;
-    padding: 1rem;
+.wallet-type {
+  padding: 1rem;
 }
-@media(max-width:450px){
-    .connect p{
-        font-size: 1.2rem;
-    }
-    .modal{
-        width: 60%;
-        height: 40%;
-    }
+
+.modal-box {
+  border: 1px solid #cfd8dc;
+
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.modal-box_content {
+  display: flex;
+  align-items: center;
+}
+.modal-box_content p {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+
+}
+.modal-icon{
+    width: 30%;
+    height: auto;
+    
+}
+@media (max-width: 728px) {
+  .connect p {
+    font-size: 1.2rem;
+  }
+  .modal {
+    width: 70%;
+    height: auto;
+  }
+  .modal-box_content p{
+    font-size: 1rem;
+  }
 }
